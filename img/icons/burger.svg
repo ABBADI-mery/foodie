@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M15 25H45C45 21.6863 42.3137 19 39 19H21C17.6863 19 15 21.6863 15 25Z" fill="#ff8000" fill-opacity="0.2"/>
+    <path d="M15 35H45C45 38.3137 42.3137 41 39 41H21C17.6863 41 15 38.3137 15 35Z" fill="#ff8000" fill-opacity="0.2"/>
+    <path d="M15 25H45V35H15V25Z" stroke="#ff8000" stroke-width="2"/>
+    <path d="M20 30H40" stroke="#ff8000" stroke-width="2"/>
+    <circle cx="25" cy="30" r="2" fill="#ff8000"/>
+    <circle cx="35" cy="30" r="2" fill="#ff8000"/>
+</svg> 
