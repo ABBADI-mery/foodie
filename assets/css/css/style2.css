@@ -104,7 +104,7 @@ form.sign-in-form {
 
 .btn {
   width: 150px;
-  background-color: #5995fd;
+  background-color: #ff8000;
   border: none;
   outline: none;
   height: 49px;
@@ -118,7 +118,7 @@ form.sign-in-form {
 }
 
 .btn:hover {
-  background-color: #4d84e2;
+  background-color: #ff6b2b;
 }
 
 .panels-container {
@@ -139,7 +139,7 @@ form.sign-in-form {
   top: -10%;
   right: 48%;
   transform: translateY(-50%);
-  background-image: linear-gradient(-45deg, #4481eb 0%, #04befe 100%);
+  background-image: linear-gradient(-45deg, #ff8000 0%, #ffa64d 100%);
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
@@ -315,6 +315,7 @@ form.sign-in-form {
     right: initial;
     top: initial;
     transition: 2s ease-in-out;
+    background-image: linear-gradient(-45deg, #ff8000 0%, #ffa64d 100%);
   }
 
   .container.sign-up-mode:before {
@@ -389,4 +390,35 @@ form.sign-in-form {
   color: #155724;
   background-color: #d4edda;
   border-color: #c3e6cb;
+}
+
+/* Ajout des styles pour le bouton S'INSCRIRE */
+button[type="submit"],
+.btn-primary,
+input[type="submit"] {
+  background-color: #ff8000 !important;
+  color: white !important;
+  border: none !important;
+  transition: background-color 0.3s ease !important;
+}
+
+button[type="submit"]:hover,
+.btn-primary:hover,
+input[type="submit"]:hover {
+  background-color: #ff6b2b !important;
+}
+
+/* Style pour le bouton SE CONNECTER */
+.se-connecter {
+  background-color: #ff8000 !important;
+  color: white !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  border-radius: 25px !important;
+  text-decoration: none !important;
+  transition: background-color 0.3s ease !important;
+}
+
+.se-connecter:hover {
+  background-color: #ff6b2b !important;
 } 
